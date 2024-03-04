@@ -5,7 +5,6 @@ import 'dotenv/config';
 import '@/app/connection';
 import Routes from '@/routes';
 import * as Exception from '@/app/exception';
-// import authRouter from '../../routes/auth';
 
 const app = express();
 
@@ -15,7 +14,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.use('/public', express.static('public'));
-// app.use('/auth', authRouter);
+
 app.use(Routes);
 
 app.use(Exception.sendNotFoundError);

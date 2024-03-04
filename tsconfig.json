@@ -3,9 +3,7 @@
         "target": "ESNext",
         "useDefineForClassFields": true,
         "module": "ESNext",
-        "lib": [
-            "ESNext"
-        ],
+        "lib": ["ESNext"],
         "moduleResolution": "Node",
         "strict": true,
         "resolveJsonModule": true,
@@ -17,18 +15,10 @@
         "noImplicitReturns": true,
         "skipLibCheck": true,
         "baseUrl": ".",
-        "noImplicitAny": false,
         "paths": {
-            "@/*": [
-                "src/*"
-            ],
-            "@develop/*": [
-                "develop/*"
-            ]
+            "@/*": ["src/*"],
+            "@develop/*": ["develop/*"]
         }
     },
-    "include": [
-        "src/**/*.ts",
-        "src/**/*.d.ts"
-    ]
+    "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }

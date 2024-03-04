@@ -1,5 +1,5 @@
 {
-    "name": "hotel-website",
+    "name": "freyja",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -8,9 +8,7 @@
         "build": "tsc && node develop/build.js",
         "start": "node dist/index.js",
         "swagger-autogen": "node develop/swagger.js",
-        "postinstall": "npm run swagger-autogen",
-        "docker-build": "docker build -t hotel-website:v1 .",
-        "docker-compose": "docker-compose up"
+        "postinstall": "npm run swagger-autogen"
     },
     "devDependencies": {
         "@types/bcryptjs": "^2.4.6",
@@ -32,8 +30,6 @@
         "cors": "^2.8.5",
         "dotenv": "^16.3.1",
         "express": "^4.18.2",
-        "express-session": "^1.17.3",
-        "googleapis": "^129.0.0",
         "jsonwebtoken": "^9.0.2",
         "mongoose": "7.6.3",
         "morgan": "^1.10.0",
