@@ -65,14 +65,14 @@ NODE_ENV = "development"
 PORT = 3005
 
 # MongoDB 連結
-DATABASE = "mongodb+srv://example:<password>@cluster0.xqonzdp.mongodb.net/"
+DATABASE = ""
 # MongoDB 密碼
-DATABASE_PASSWORD = "yoaymj3C474VsrysWLp3"
+DATABASE_PASSWORD = ""
 
 # JTW Token 到期日
 JWT_EXPIRES_DAY = "7d"
 # JTW Token 密鑰
-JWT_SECRET = "hexschool"
+JWT_SECRET = ""
 
 # Gmail 帳號
 EMAILER_USER = "example@gmail.com"
